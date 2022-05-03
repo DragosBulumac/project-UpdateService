@@ -2,7 +2,6 @@ from fastapi import APIRouter, Depends
 
 from ..services.hello_srv import HelloSrv
 
-
 router = APIRouter(
     prefix="/temp",
     tags=["temp"],

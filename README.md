@@ -12,7 +12,7 @@ The service is partially compatible with the [updateservicectl](https://github.c
 - `package` (`create`, `list`, `delete`, `upload`, `download`)
 
 
-## Development 
+## Development
 
 ### Technology Stack
 
@@ -68,12 +68,6 @@ We will be using an Agile ([Agile Manifesto](https://agilemanifesto.org/), [Agil
 |----------------------|-----------------------|--------------------|-------------|
 | Yuriy Senko          | ysenko@lohika.com     | TeamLead, TechLead | SM, PO      |
 | Iryna Klymiv         | iklymiv@lohika.com    | PM                 | Stakeholder |
-|                      |                       | Software Eng       | Team Member |
-|                      |                       | Software Eng       | Team Member |
-|                      |                       | Software Eng       | Team Member |
-|                      |                       | Software Eng       | Team Member |
-|                      |                       | Software Eng       | Team Member |
-|                      |                       | Software Eng       | Team Member |
 
 ### How to start working on a ticket
 Will are using the [Gitlab flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)

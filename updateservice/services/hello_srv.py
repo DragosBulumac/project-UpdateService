@@ -1,4 +1,4 @@
-from fastapi import Depends 
+from fastapi import Depends
 
 from ..repositories.hello_repo import HelloRepo
 
