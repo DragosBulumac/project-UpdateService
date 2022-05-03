@@ -1,13 +1,12 @@
 import functools
 
-from pydantic import (BaseSettings,
-                      Field)
+from pydantic import BaseSettings, Field
 
 
 class AppSettings(BaseSettings):
     host = Field("127.0.0.1")
     port = Field("8080")
-    
+
     class Config:
         env_prefix = "update_service_"
 
