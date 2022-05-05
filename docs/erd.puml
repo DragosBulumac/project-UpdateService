@@ -78,6 +78,16 @@ entity application_groups {
 * updated_at: timestamp in UTC
 }
 
+entity token {
+* id: uuid
+--
+* user_id: FK(user.id)
+* token: uuid
+* deleted: Boolean
+* created_at: timestamp in UTC
+* updated_at: timestamp in UTC
+}
+
 application }o--|| team
 user ||--o{ user_teams
 user_teams }o--|| team
@@ -86,5 +96,6 @@ package }o--|| application
 application ||--o{ application_groups
 group ||--o{ application_groups
 channel |o--o| package
+user ||--o{ token
 
 @enduml
