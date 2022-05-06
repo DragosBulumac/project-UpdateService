@@ -64,7 +64,6 @@ entity group {
 * id: uuid
 --
 * name: varchar(255)
-* application_id: FK (application.id)
 * created_at: timestamp in UTC
 * updated_at: timestamp in UTC
 }
