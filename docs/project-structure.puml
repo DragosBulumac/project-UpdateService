@@ -9,6 +9,10 @@ abstract class AbstractRepository {
     list()
 }
 
+class SQLAlchemyRepository {
+    db_session: Session
+}
+
 AbstractRepository --* BaseModel
 SQLAlchemyRepository --|> AbstractRepository
 InMemoryRepository --|> AbstractRepository
@@ -37,6 +41,7 @@ abstract class AbstractRepository {
 
 abstract class AbstractService {
     repository: AbstractRepository
+    db_session: Session
 }
 
 AbstractService --* AbstractRepository
