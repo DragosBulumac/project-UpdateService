@@ -67,11 +67,10 @@ We will be using an Agile ([Agile Manifesto](https://agilemanifesto.org/), [Agil
 ### Team, responsibility and roles
 | Name                 | Email                 | Responsibility| Scrum Role     |
 |----------------------|-----------------------|---------------|----------------|
-| Yuriy Senko          | ysenko@lohika.com     | Tech Lead     | PO             |
-| Nazar Dobosh         | ndobosh@lohika.com    | PM            | SM, Stakeholder|
-| Andrii Pinaiev       | apinaiev@lohika.com   | Team Lead     | Dev            |
-| Ihor Pohoidash       | ipohoidash@lohika.com | Team Lead     | Dev            |
-| Petro Naidiuk        | pnaidiuk@lohika.com   | Team Lead     | Dev            |
+| Drags Bulumac        | dragos_d13@yahoo.com  | Tech Lead     | PO             |
+| Drags Bulumac        |                       | PM            | SM, Stakeholder|
+| Drags Bulumac        |                       | Team Lead     | Dev            |
+
 
 
 ### How to start working on a ticket
