@@ -65,11 +65,19 @@ We will be using an Agile ([Agile Manifesto](https://agilemanifesto.org/), [Agil
 | Sprint Retrospective      | Every Fri      | Scrum Team   |
 
 ### Team, responsibility and roles
+<<<<<<< HEAD
 | Name           | Email | Responsibility| Scrum Role     |
 |----------------|-------|---------------|----------------|
 | Bulumac Dragos |       | Tech Lead     | PO             |
 | Bulumac Dragos |       | PM            | SM, Stakeholder|
 | Bulumac Dragos |       | Team Lead     | Dev            |
+=======
+| Name                 | Email                 | Responsibility| Scrum Role     |
+|----------------------|-----------------------|---------------|----------------|
+| Drags Bulumac        | dragos_d13@yahoo.com  | Tech Lead     | PO             |
+| Drags Bulumac        |                       | PM            | SM, Stakeholder|
+| Drags Bulumac        |                       | Team Lead     | Dev            |
+>>>>>>> 91e26c676769bcf6a5679990f218b4623db074cd
 
 
 
