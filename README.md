@@ -1,4 +1,4 @@
-# Update Service
+****# Update Service
 
 UpdateService is a simple REST service which allows to manage and packages updates. It provides a set of APIs for:
 - Update channels management
@@ -65,13 +65,12 @@ We will be using an Agile ([Agile Manifesto](https://agilemanifesto.org/), [Agil
 | Sprint Retrospective      | Every Fri      | Scrum Team   |
 
 ### Team, responsibility and roles
-| Name                 | Email                 | Responsibility| Scrum Role     |
-|----------------------|-----------------------|---------------|----------------|
-| Yuriy Senko          | ysenko@lohika.com     | Tech Lead     | PO             |
-| Nazar Dobosh         | ndobosh@lohika.com    | PM            | SM, Stakeholder|
-| Andrii Pinaiev       | apinaiev@lohika.com   | Team Lead     | Dev            |
-| Ihor Pohoidash       | ipohoidash@lohika.com | Team Lead     | Dev            |
-| Petro Naidiuk        | pnaidiuk@lohika.com   | Team Lead     | Dev            |
+| Name           | Email | Responsibility| Scrum Role     |
+|----------------|-------|---------------|----------------|
+| Bulumac Dragos |       | Tech Lead     | PO             |
+| Bulumac Dragos |       | PM            | SM, Stakeholder|
+| Bulumac Dragos |       | Team Lead     | Dev            |
+
 
 
 ### How to start working on a ticket
@@ -125,4 +124,9 @@ TBD (SHOULD be written and updated here after completing Milestone 02 (see issue
 TBD (SHOULD be written and updated here after completing Milestone 02 (see issue #11))
 
 #### Downgrade DB schema
-TBD (SHOULD be written and updated here after completing Milestone 02 (see issue #11))
+TBD (SHOULD be written and updated here after completing Milestone 02 (see issue #11))****
+
+
+
+
+

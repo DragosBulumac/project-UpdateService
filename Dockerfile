@@ -35,3 +35,6 @@ CMD ["uvicorn" , ".app:app" , "--host", "0.0.0.0", "--port", "8000"]
 
 #RUN poetry config virtualenvs.create false
 #RUN poetry install --no-interaction
+
+
+

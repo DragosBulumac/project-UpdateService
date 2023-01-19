@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    container_name: axessible_rest_api
+    ports:
+      - "5000:80"
+    volumes:
+      - static_volumes:/usr/src/staticfiles
+      - .:/usr/src
+    env_file:
+      - .env
+    links:
+      - postgres
+    depends_on:
+      -postgres
+
+    postgres:
+      image: postgres:13.0-alpine
+      container_name: axessible_postgres
+      restart: always
+      user : root
+      volumes:
+        - db_data:/var/lib/postgresql/data
+      enviroment:
+        POSTGRES_USER: admin
+        POSTGRES_PASSWORD : 1234
+        POSTGRES_DB : axessible
+      ports:
+        - "5432:5432"
+#        env_file:
+#          - .env
